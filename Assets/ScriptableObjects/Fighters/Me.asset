@@ -15,7 +15,7 @@ MonoBehaviour:
   Name: Test
   Level: 5
   Color: {r: 1, g: 0, b: 0, a: 0}
-  CurrentHealth: 100
-  TotalHealth: 100
+  CurrentHealth: 818
+  TotalHealth: 1000
   Attack: 10
   Healing: 5

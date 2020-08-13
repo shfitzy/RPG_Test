@@ -8,10 +8,10 @@ namespace Smot
         public static BattleManager instance;
 
         [SerializeField]
-        public CreatureData[] playerUnits;
+        public Actor[] playerUnits;
 
         [SerializeField]
-        public CreatureData[] enemyUnits;
+        public Actor[] enemyUnits;
 
         void Awake()
         {

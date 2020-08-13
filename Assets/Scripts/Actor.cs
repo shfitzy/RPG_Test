@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [CreateAssetMenu(fileName="New Unit", menuName="Combat Unit")]
-public class CreatureData : ScriptableObject
+public class Actor : ScriptableObject
 {
     public new string name;
     public int maxHp;

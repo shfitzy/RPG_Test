@@ -4,10 +4,10 @@ using UnityEngine;
 public class DebugBattleTransition : MonoBehaviour
 {
     [SerializeField]
-    private CreatureData[] playerUnits;
+    private Actor[] playerUnits;
 
     [SerializeField]
-    private CreatureData[] enemyUnits;
+    private Actor[] enemyUnits;
     
     public void StartBattle(string sceneName)
     {

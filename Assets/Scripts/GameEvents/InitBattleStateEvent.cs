@@ -5,21 +5,21 @@ namespace GameEvents
 {
     class InitBattleStateEvent : IGameEvent
     {
-        private readonly CreatureData[] playerUnits;
-        private readonly CreatureData[] enemyUnits;
+        private readonly Actor[] playerUnits;
+        private readonly Actor[] enemyUnits;
 
-        public InitBattleStateEvent(CreatureData[] playerUnits, CreatureData[] enemyUnits)
+        public InitBattleStateEvent(Actor[] playerUnits, Actor[] enemyUnits)
         {
             this.playerUnits = playerUnits;
             this.enemyUnits = enemyUnits;
         }
 
-        public CreatureData[] getPlayerUnits()
+        public Actor[] getPlayerUnits()
         {
             return playerUnits;
         }
 
-        public CreatureData[] getEnemyUnits()
+        public Actor[] getEnemyUnits()
         {
             return enemyUnits;
         }

@@ -15,7 +15,7 @@ MonoBehaviour:
   Name: Them
   Level: 1
   Color: {r: 0, g: 0, b: 0, a: 0}
-  CurrentHealth: 50
-  TotalHealth: 50
+  CurrentHealth: 740
+  TotalHealth: 1000
   Attack: 7
   Healing: 2

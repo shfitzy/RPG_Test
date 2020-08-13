@@ -26,7 +26,7 @@ namespace Combat
         [SerializeField]
         private int armor;
 
-        public Unit(CreatureData data)
+        public Unit(Actor data)
         {
             this.name = data.name;
             this.currentHp = data.maxHp;
