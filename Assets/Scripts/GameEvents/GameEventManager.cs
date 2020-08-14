@@ -23,7 +23,6 @@ namespace GameEvents
             var aliveList = (from el in listeners where el.IsAlive select el);
 
             listeners = aliveList.ToList();
-
             foreach(WeakReference weakRef in listeners)
             {
                 (weakRef.Target as IGameEventListener).eventReceived(e);

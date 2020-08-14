@@ -13,6 +13,8 @@ namespace CombatSystem
 
         public override IEnumerator Enter()
         {
+            GameEventManager.PostEvent(new PlayMusicEvent("BattleTheme"));
+
             combatSystem.Interface.DisablePlayerUI();
 
             yield return new WaitForSeconds(2f);

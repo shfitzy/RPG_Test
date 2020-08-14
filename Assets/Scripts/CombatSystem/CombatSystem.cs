@@ -10,7 +10,7 @@ namespace CombatSystem
 
         private State currentState;
 
-        void Awake()
+        void Start()
         {
             GameEventManager.RegisterListener(this);
 
